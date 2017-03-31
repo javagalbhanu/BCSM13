@@ -13,6 +13,7 @@ public class Demo {
 
 	@Test
 	public void testDemo() throws MalformedURLException{
+		System.out.println("Runing on Grid");
 		URL node=new URL("http://localhost:4444/wd/hub");
 		WebDriver driver=new RemoteWebDriver(node,DesiredCapabilities.chrome());
 		driver.get("http://www.google.com");
