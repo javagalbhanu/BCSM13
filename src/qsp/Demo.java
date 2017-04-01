@@ -19,5 +19,6 @@ public class Demo {
 		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
 		driver.quit();
+		System.out.println("Closing the browser");
 	}
 }
