@@ -18,6 +18,6 @@ public class Demo {
 		WebDriver driver=new RemoteWebDriver(node,DesiredCapabilities.chrome());
 		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
-//		driver.quit();
+		driver.quit();
 	}
 }
